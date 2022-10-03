@@ -61,7 +61,7 @@ class LaravelBooter
      */
     public function boot()
     {
-        $bootstrapPath = $this->basePath() . '/bootstrap/app.php';
+        $bootstrapPath = $this->basePath() . '/bootstrap/behat.php';
 
         $this->assertBootstrapFileExists($bootstrapPath);
 
